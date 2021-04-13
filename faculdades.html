@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="André Salgadao , Rúben Santos">
+    <meta name="keywords" content="UBI, Universidade da Beira Interior, Covilhã, novos alunos, University of Beira Interior, new student's">
+    <meta name="description" content="Website com intuito de ajudar a integrar os novos alunos na UBI">
+    <meta name="creation_date" content="22/12/2018">
+    <meta name="contactNetworkAddress" content="a41223@ubi.pt , a41308@ubi.pt">
+    <link rel="stylesheet" href="estilos.css">
+	
+	
+<style>
+			
+			figure img:nth-child(2) {
+	width: 75px;
+	height: 75px;
+	z-index: 3;
+	position: relative;
+	right: 95px;
+	bottom: 10px;
+	
+}
+
+article > figure {
+	display: block;
+	float: center;
+	padding: 5px;
+	
+}
+article > figure img {
+	height: 250px;
+	width: 98%;
+}
+
+figure img: {
+	width: 75px;
+	height: 75px;
+	z-index: 3;
+	position: relative;
+	right: 95px;
+	bottom: 10px;
+	
+}
+
+figure [alt*=ImagemUM] {
+	border: 5px white solid;
+}
+
+table{
+  width:100%;
+  height:100%;
+  font-family: Trebuchet MS;
+  text-align: center;
+
+}
+
+td {
+	font-size: 16px;
+	border:1px solid gray;
+	padding-right:7px;
+	padding-left:7px;
+	padding-top:3px;
+	padding-bottom:2px;
+	color: white;
+	
+}
+
+th {
+	font-size: 16px;
+	border:1px solid gray;
+	padding-right:7px;
+	padding-left:7px;
+	padding-top:3px;
+	padding-bottom:2px;
+	color: white;
+	
+}
+
+.alt {
+	color: #000000;
+	background-color:#819FF7;
+	
+}
+ tr:nth-child(even){
+	background-color: gray;
+}
+
+</style>
+  
+</head>
+  
+<body>
+<article>
+	<header>
+	 <div class="header">
+        <h1>Integra-te UBI</h1>
+        <img src='http://www.ubi.pt/assets/img/2016/logotipo-ubi-2016.svg'>
+     </div>
+	</header>
+ 
+
+  
+<div class="topnav" id="myTopnav">
+  <a href="Projeto.html" class="active">Projeto</a>
+  <a href="UBI.html">UBI</a>
+  <div class="dropdown">
+    <button class="dropbtn">Informações 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="horarios.html">Horários</a>
+      <a href="faculdades.html">Faculdades/Polos</a>
+      <a href="cursos.html">Cursos</a>
+    </div>
+  </div> 
+  <a href="atividades.html">atividades</a>
+  <a href="experiencia.html">Vivências</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" 
+  onclick="myFunction()">&#9776;</a>
+</div>
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+	
+	<br>
+	
+As Faculdades da UBI são unidades orgânicas que prosseguem a missão da Universidade, no âmbito da sua atuação. 
+	Encontrarás ao teu dispor a Faculdade de Ciências, a de Engenharia, a de Ciencias Sociais e Humanas, de Artes e Letras e por último a de Ciências da Saúde que é a mais recente.
+	No mapa seguinte basta clicares num dos blocos de cores e poderás descobrir mais sobre as faculdades e os respetivos Polos. Ficam também disponíveis os links abaixo, caso exista algum problema na visualização do mapa.
+	<br>
+	<br>
+	<br>
+	
+	
+	
+	<center><img src="polos.PNG" alt="Polos" usemap="#planetmap"></center>	
+	
+	<map name="planetmap">
+		<area shape="rect" coords="176,52,250,135" alt="Polo IV" href="http://www.ubi.pt/Entidade/Ciencias_Sociais_e_Humanas">
+		<area shape="rect" coords="191,219,243,243" alt="POLO 1- Engenharias" href="http://www.ubi.pt/Entidade/Engenharia">
+		<area shape="rect" coords="253,241,292,258" alt="POLO 1- Ciências" href="http://www.ubi.pt/Entidade/Ciencias">
+		<area shape="rect" coords="249,264,313,305" alt="POLO II" href="http://www.ubi.pt/Entidade/Artes_e_Letras">
+		<area shape="rect" coords="389,364,450,400" alt="POLO III" href="http://www.ubi.pt/Entidade/Departamento_de_Ciencias_Medicas">
+	</map>
+	
+	<br>
+	<br>
+	
+	<table id="participantes">
+	<tr class="alt">
+				<td><a href="http://www.ubi.pt/Pagina/Faculdades">Link para mais informação oficial sobre a UBI</a></td>
+	</tr>
+	</table>
+
+</article>
+	<div class="footer">
+		   André Salgado - 41223 e Ruben Camilo dos Santos - 41308// Composição Web-Engenharia Informática // Universidade da Beira Interior--2018/2019
+			<br>Site inspirado na página oficial da Universidade da Beira Interior
+	</div>
+</body>
+</html>

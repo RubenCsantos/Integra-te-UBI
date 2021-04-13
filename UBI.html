@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="André Salgadao , Rúben Santos">
+    <meta name="keywords" content="UBI, Universidade da Beira Interior, Covilhã, novos alunos, University of Beira Interior, new student's">
+    <meta name="description" content="Website com intuito de ajudar a integrar os novos alunos na UBI">
+    <meta name="creation_date" content="22/12/2018">
+    <meta name="contactNetworkAddress" content="a41223@ubi.pt , a41308@ubi.pt">
+    <link rel="stylesheet" href="estilos.css">
+	
+	<style>
+		table{
+  width:100%;
+  height:100%;
+  font-family: Trebuchet MS;
+  text-align: center;
+
+}
+
+td {
+	font-size: 16px;
+	border:1px solid gray;
+	padding-right:7px;
+	padding-left:7px;
+	padding-top:3px;
+	padding-bottom:2px;
+	color: white;
+	
+}
+
+th {
+	font-size: 16px;
+	border:1px solid gray;
+	padding-right:7px;
+	padding-left:7px;
+	padding-top:3px;
+	padding-bottom:2px;
+	color: white;
+	
+}
+
+.alt {
+	color: #000000;
+	background-color:#819FF7;
+	
+}
+ tr:nth-child(even){
+	background-color: gray;
+}
+
+	</style>
+  
+  
+</head>
+  
+<body>
+<article>
+	<header>
+	 <div class="header">
+        <h1>Integra-te UBI</h1>
+        <img src='http://www.ubi.pt/assets/img/2016/logotipo-ubi-2016.svg'>
+     </div>
+	</header>
+
+  
+<div class="topnav" id="myTopnav">
+  <a href="Projeto.html" class="active">Projeto</a>
+  <a href="UBI.html">UBI</a>
+  <div class="dropdown">
+    <button class="dropbtn">Informações 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="horarios.html">Horários</a>
+      <a href="faculdades.html">Faculdades/Polos</a>
+      <a href="cursos.html">Cursos</a>
+    </div>
+  </div> 
+  <a href="atividades.html">atividades</a>
+  <a href="experiencia.html">Vivências</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" 
+  onclick="myFunction()">&#9776;</a>
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+	<br>
+	Segundo a página oficial da Universidade da Beira Interior, “Os primeiros passos a caminho do que hoje é a Universidade da Beira Interior (UBI) foram dados na década de 70, quando nasceu o Instituto Politécnico da Covilhã (IPC), em 1973. A cidade, outrora considerada a "Manchester portuguesa" pela longa tradição, dinâmica e qualidade dos seus lanifícios, foi atingida, nessa década, por uma crise ao nível da indústria: grandes e pequenas fábricas começam a revelar debilidades graves que levariam ao seu encerramento, com consequências sociais e económicas desastrosas para a região.”
+	É possível encontrar mais informação no link disponível no final da página.
+	<br>
+	<br>
+	<br>
+	<center><iframe src="https://www.google.com/maps/d/embed?mid=1aERwW74qJqx7TOkobEIM_bPuxIA&hl=en" width="520" height="360"></iframe></center>
+	<br>
+	<br>
+	<br>
+	<table id="participantes">
+	<tr class="alt">
+				<td><a href="http://www.ubi.pt/Pagina/Historia">Link para mais informação oficial sobre a UBI</a></td>
+	</tr>
+	</table>	
+	
+
+</article>
+<div class="footer">
+		   André Salgado - 41223 e Ruben Camilo dos Santos - 41308// Composição Web-Engenharia Informática // Universidade da Beira Interior--2018/2019
+			<br>Site inspirado na página oficial da Universidade da Beira Interior
+	</div>
+</body>
+</html>
